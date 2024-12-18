@@ -56,7 +56,7 @@ The soundTrigger kernel module allows you to trigger sound playback from the Lin
 1. To trigger sound playback:
 
    ```bash
-   chmod 646 /dev/sound_trigger
+   sudo chmod 646 /dev/sound_trigger
    echo "play_sound" > /dev/sound_trigger
    ```
 
